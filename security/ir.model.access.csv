@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_method_validar_picking_method_validar_picking,method_validar_picking.method_validar_picking,model_method_validar_picking_method_validar_picking,,1,0,0,0
