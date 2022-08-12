@@ -14,7 +14,7 @@ class ModuleName(models.Model):
             move=self.env['stock.move'].search([('picking_id','=',p.id)])
             for m in move:                
                 values={
-                            'reserved_availability':m.product_uom_qty
+                            'reserved_availability':0
                         }
                 m.sudo().write(values)
                 move_line=self.env['stock.move.line'].search([('move_id','=',m.id)])
